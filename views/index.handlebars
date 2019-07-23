@@ -1,0 +1,49 @@
+{{>header}}
+
+<div class="jumbotron">
+  <h1 class="display-4">The More You Know</h1>
+
+  <p class="lead">An app to picque your curiosity and learn strange things.</p>
+
+  <hr class="my-4">
+
+  <button>
+    <a href='/api/articles'>
+      See New Articles
+    </a>
+  </button>
+
+  <button>
+    <a href='#'>
+      Clear Current Article Batch
+    </a>
+  </button>
+  
+</div>
+
+<div class="article-collection">
+    
+    {{#each articles as |article|}}
+      <div>
+        {{#if article.image}}
+          <img src={{article.image}}>
+        {{/if}}
+
+        <h3>
+          <span>Title:</span>
+          <a href={{article.link}} target="_blank">
+            {{article.title}}
+          </a>
+          <span>{{article.category}}</span>
+        </h3>
+
+        <p>{{article.summary}}</p>
+
+
+      </div>
+      {{else}}
+        <div>No Articles Pulled Yet! Wanna pull some?</div>
+    {{/each}}
+</div>
+
+{{>footer}}
