@@ -1,0 +1,66 @@
+img {
+  width: 250px;
+  height: 200px;
+}
+
+body {
+  background-image: url("../images/nicole-honeywill-1r0Wc5UvqPI-unsplash.jpg");
+}
+
+.article-content {
+  background-color: rgba(255, 246, 229, 0.7);
+  margin: 30px;
+  width: 85%;
+}
+
+.article-link {
+  color: #02164b !important;
+  /* color: purple !important; */
+  background-color: rgb(255, 246, 229);
+  font-size: 30px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.title-keyword {
+  color: #94928f;
+}
+
+/* .article-summary {
+  font-weight: 450;
+} */
+h4 {
+  color: #3b5647;
+  /* color: purple; */
+}
+
+h3,
+h4,
+p,
+a,
+div {
+  /* font-family: "Cabin", sans-serif; */
+  font-family: "Karla", sans-serif;
+  /* font-family: "Hind Siliguri", sans-serif; */
+}
+
+.comment-btn {
+  width: 200px;
+  display: block;
+  color: black;
+}
+
+textarea,
+input {
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+/* .save-note {
+  color: white !important;
+} */
+.save-button {
+  color: white;
+}
