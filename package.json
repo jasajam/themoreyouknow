@@ -4,7 +4,7 @@
   "description": "An app using Cheerio, MongoDB, and JS to present current news and allow users to comment on what they read.",
   "main": "index.js",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "cheerio": "^1.0.0-rc.3",
     "dotenv": "^8.0.0",
     "express": "^4.17.1",
